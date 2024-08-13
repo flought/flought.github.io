@@ -12,6 +12,10 @@ body {
     color: white;
 }
 
+header #block-top {
+    background-color: rgb(191, 191, 110);
+}
+
 nav {
     background-color: rgb(240, 184, 79);
 }
