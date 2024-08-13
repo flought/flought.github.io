@@ -1,66 +1,30 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: #f1f1f1;
-    padding: 28px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.column {
-    float: left;
-    padding: 10px;
-    height: 300px;
-}
-
-.column.side {
-    width: 25%;
-    background-color: orange;
-}
-
-.column.middle {
-    width: 50%;
-    background-color: yellow;
-    opacity: 0.7;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#block-top {
-    background:#23282D;
-    padding:10px 20px;
-    color: rgb(102, 152, 228);
-}
-
-.icon {
-    width: 80px;
-    height: 80px;
-}
-
-h1 {
-    position: static;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 body {
-    background-image: url(../images/boitumelo-o_tcYADlSt8-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/wallpaper.webp);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
-ul {
-    list-style-type: none;
+nav {
+    background-color: rgb(240, 184, 79);
 }
 
-footer {
-    background-color: green;
-    padding: 10px;
-    text-align: center;
+#menu-secundario-ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+#menu-secundario-ul li a {
+    color: rgb(233, 22, 22);
+}
+
+main {
+
 }
