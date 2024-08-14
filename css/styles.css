@@ -1,34 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background-image: url(../images/wallpaper.webp);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
 
-header #block-top {
-    background-color: rgb(191, 191, 110);
-}
 
-nav {
-    background-color: rgb(240, 184, 79);
-}
 
-#menu-secundario-ul li {
-    display: inline;
-    padding-right: 20px;
-}
 
-#menu-secundario-ul li a {
-    color: rgb(233, 22, 22);
-}
 
-main {
 
-}
+
+
+
+

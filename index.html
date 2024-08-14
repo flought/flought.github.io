@@ -6,55 +6,95 @@
     <title>Sitio Web Oficial Base de datos</title>
 
     <link rel="shortcut icon" href="images/603190.png" type="image/png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
 </head>
-<body>
-    <header>
 
-        <div id="block-top">
-            <h1>Programando bases de datos</h1>
-            <h2>Página web didáctica</h2>
-            <p>
-                <a href=""><img src="images/Sin título.ico" alt="prueba" class="icon"></a>
-            </p>
-        </div>
+<!--
+wrapper-body > igual
+oculto teclado > igual
+secondary-menu > menu-secundario
+secondary-menu-label > etiqueta-menu-secundario
+oculto > igual
+secondary-menu-ul > ul-menu-secundario
+wrapper-main-menu-main > igual
+main-manu > menu-principal
+main-menu-label > etiqueta-menu-principal
+main-menu-ul > ul-menu-principal
+maincontent > contenido-principal
+tertiary-menu > menu-terciario
+tertiary-menu-label > etiqueta-menu-terciario
+tertiary-menu-ul > ul-menu-terciario
+-->
+
+<body>
+    <div id="wrapper-body">
+        <p class="oculto teclado"><a href="">Ir al contenido principal</a></p>
+
+    <header aria-label="Cabecera">
+        <h1><a href="">Página de aprendizaje en bases de datos SQL</a></h1>
+        <h2>Cristopher Cerón Herrera</h2>
     </header>
 
-    <nav id="menu-secundario">
-        <ul id="menu-secundario-ul">
-            <li><a href="#" title="Información principal">Inicio</a></li>
-            <li><a href="#" title="">Almacenamiento de la información</a></li>
-            <li><a href="#" title="">Bases de datos relacionales</a></li>
-            <li><a href="#" title="">Diseño de BD relacional - Diagrama</a></li>
-            <li><a href="#" title="">Consultas</a></li>
-            <li><a href="#" title="">Tratamiento de datos</a></li>
-            <li><a href="#" title="">Programación de base de datos</a></li>
+    <nav id="menu-secunadrio" aria-labelledby="etiqueta-menu-secundario">
+        <h2 id="etiqueta-menu-secundario" class="oculto">Menú secundario</h2>
+        <ul id="ul-menu-secundario">
+            <li><a href="" title=""></a>Almacenamiento de la información</li>
+
+            <li><a href="" title="">Bases de datos relacionales</a></li>
+
+            <li><a href="" title="">Diseño de BD realacional - Diagrama Entidad-Relación</a></li>
+
+            <li><a href="" title="">Consultas</a></li>
+
+            <li><a href="" title="">Tratamiento de datos</a></li>
+
+            <li><a href="" title="">Programación de bases de datos</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section>
-            <article>
-                <figure>
-                    <img src="" alt="dfdf">
-                    <figcaption></figcaption>
-                </figure>
-                <div class="">
-                    <p>En esta página se arenderá a como usar comandos en una base de datos SQL.</p>
-                </div>
-            </article>
-        </section>
+    <div id="wrapper-main-menu-main">
+        <nav id="menu-principal" aria-labelledby="etiqueta-menu-principal">
+            <h2 id="etiqueta-menu-principal" class="oculto">Menú principal</h2>
 
-        <section></section>
+        <details>
+            <summary>Menú principal</summary>
+            <ul class="ul-menu-principal">
+                <!--INDICAR LISTAS-->
+            </ul>
+        </details>
 
-        <section></section>
-    </main>
-
-    <footer>
         <div>
-            <p>Esto es el pie de página</p>
+            <ul class="ul-menu-principal">
+                <!--INDICAR LISTAS-->
+            </ul>
         </div>
-    </footer>
+
+        </nav>
+
+        <main id="contenido-principal" aria-label="Contenido principal">
+            <h2>Objetivos del sitio web</h2>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+
+            <!--TODO EL CONTENIDO NECESARIO RELACIONADO CON EL MENÚ PRINCIPAL Y ALGO MÁS-->
+        </main>
+
+    </div>
+
+    <nav id="menu-terciario" aria-labelledby="etiqueta-menu-terciario">
+        <h2 id="etiqueta-menu-terciario" class="oculto">Menú secundario</h2>
+        <ul id="ul-menu-terciario">
+            <!--INDICAR LISTAS-->
+        </ul>
+    </nav>
+
+    </div>
 
 </body>
 </html>
